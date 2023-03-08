@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "incremental": true,
+        "outDir": "dist",
+        "rootDirs": [
+            "src",
+            "tests"
+        ],
+        "target": "es2021",
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictPropertyInitialization": false,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "baseUrl": "src",
+        "strict": true,
+        "noImplicitOverride": true,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "include": [
+        "src",
+        "tests"
+    ]
+}
